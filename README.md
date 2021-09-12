@@ -1,6 +1,7 @@
-# deno-unlimited-bitly
-deno-unlimited-bitly 是一個將**多個**[Bitly](https://bitly.com)帳號的轉短址額度結合起來而成為**一個較大且幾乎可無限擴充額度容量**的模組。**此模組必須運行在[Deno](https://deno.land/)相容的環境中**。  
+# deno-unlimited-bitly  
+<img align="right" src="https://deno.land/logo.svg" height="100px" alt="the deno mascot dinosaur standing in the rain">  
 
+deno-unlimited-bitly 是一個將**多個**[Bitly](https://bitly.com)帳號的轉短址額度結合起來而成為**一個較大且幾乎可無限擴充額度容量**的模組。**此模組必須運行在[Deno](https://deno.land/)相容的環境中**。  
 deno-unlimited-bitly is a module which can **combine many [Bitly](https://bitly.com) accounts together** to be an extensible quota usage. This module has to run in a [Deno](https://deno.land/) compatible environment.  
 
 ## 前言(Overview)
@@ -70,13 +71,13 @@ deno run --allow-net --allow-env https://deno.land/x/unlimited_bitly/demo.js
 ## 基本函式 (Base Methods)  
 * init(BITLY_KEYS): 初始化物件(BITLY KEYs 陣列), initialize deno-unlimited-bitly object(BITLY KEYs Array)  
 * shorten(longUrl, option): 進行取得短網址, get shortened url  
-> longUrl: 欲縮成短網址的長網址。long url which wants to shorten  
-> option: 可以設定custom domain以及group_guid。it can set option for custom domain and group_guid.  
+  * `longUrl`: 欲縮成短網址的長網址。long url which wants to shorten  
+  * `option`: 可以設定custom domain以及group_guid。it can set option for custom domain and group_guid.  
 
 * getAccountsStatus(): 取得所有帳號的狀態, get all accounts status  
-> return object {valid, total}:  
->> valid: 有效帳號個數, number of valid accounts  
->> total: 所有帳號個數, number of total accounts  
+  * return object {valid, total}:  
+    * `valid`: 有效帳號個數, number of valid accounts  
+    * `total`: 所有帳號個數, number of total accounts  
 
 ## 參考網站 (Reference)  
 * [Bitly](https://bitly.com)  
