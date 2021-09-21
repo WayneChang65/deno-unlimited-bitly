@@ -1,5 +1,5 @@
 # deno-unlimited-bitly  
-<img align="right" src="https://deno.land/logo.svg" height="100px" alt="the deno mascot dinosaur standing in the rain">  
+<img align="right" src="https://raw.githubusercontent.com/WayneChang65/deno-unlimited-bitly/master/img/deno.png" height="80px" width="80" alt="the deno mascot dinosaur standing in the rain">  
 
 deno-unlimited-bitly 是一個將**多個**[Bitly](https://bitly.com)帳號的轉短址額度結合起來而成為**一個較大且幾乎可無限擴充額度容量**的模組。**此模組必須運行在[Deno](https://deno.land/)相容的環境中**。  
 deno-unlimited-bitly is a module which can **combine many [Bitly](https://bitly.com) accounts together** to be an extensible quota usage. This module has to run in a [Deno](https://deno.land/) compatible environment.  
