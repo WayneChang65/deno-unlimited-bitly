@@ -1,5 +1,6 @@
 # deno-unlimited-bitly  
-<img align="right" src="https://raw.githubusercontent.com/WayneChang65/deno-unlimited-bitly/master/img/deno.png" height="80px" width="80" alt="the deno mascot dinosaur standing in the rain">  
+<a href="https://github.com/waynechang65/deno-unlimited-bitly/tags/"><img src="https://img.shields.io/github/tag/waynechang65/deno-unlimited-bitly" alt="Current version" /></a> <a href="https://github.com/denoland/deno/blob/main/Releases.md"><img src="https://img.shields.io/badge/deno-1.14.0-brightgreen?logo=deno" alt="Minimum supported Deno version" /></a> <a href="https://GitHub.com/waynechang65/deno-unlimited-bitly/graphs/commit-activity"><img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" alt="deno-unlimited-bitly is maintained" /></a> <img src="https://img.shields.io/github/license/waynechang65/deno-unlimited-bitly" alt="deno-unlimited-bitly license" /> <a href="https://nest.land/package/deno-unlimited-bitly"><img src="https://nest.land/badge.svg" alt="Published on nest.land" /></a>  
+<img align="right" src="https://deno.land/logo.svg" height="80px" width="80" alt="the deno mascot dinosaur standing in the rain">  
 
 deno-unlimited-bitly 是一個將**多個**[Bitly](https://bitly.com)帳號的轉短址額度結合起來而成為**一個較大且幾乎可無限擴充額度容量**的模組。**此模組必須運行在[Deno](https://deno.land/)相容的環境中**。  
 deno-unlimited-bitly is a module which can **combine many [Bitly](https://bitly.com) accounts together** to be an extensible quota usage. This module has to run in a [Deno](https://deno.land/) compatible environment.  
@@ -15,11 +16,14 @@ Combine multiple Bitly accounts to use as one account easy.
 
 ## 如何在您的專案使用？ (How to use it in your project ?)
 * 直接於deno程式中，以關鍵字**import**引用  
-Use the moudle by **import** in deno's program
+Use the moudle by **import** in deno's program for [deno.land](https://deno.land/) or [nest.land](https://nest.land/).  
 ```javascript  
-import { init, shorten, getAccountsStatus } from 'https://deno.land/x/unlimited_bitly/mod.ts'
+import { init, shorten, getAccountsStatus } from 'https://deno.land/x/unlimited_bitly@v1.0.2/mod.ts'
 ```  
-
+OR
+```javascript  
+import { init, shorten, getAccountsStatus } from 'https://x.nest.land/deno-unlimited-bitly@v1.0.2/mod.ts'
+```  
 * 接下來，用下面幾行程式就搞定了。值得注意的是，BITLY_KEYS陣列要放Bitly帳號的KEY，放幾個帳號都可以。(以下範例是4個帳號)  
 Add programs below in your project. It should be mentioned that please put keys of Bitly accounts in BITLY_KEYS array.(example shows below by 4 Bitly accounts)  
 

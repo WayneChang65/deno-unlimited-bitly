@@ -1,0 +1,25 @@
+{
+  "$schema": "https://x.nest.land/eggs@0.3.8/src/schema.json",
+  "name": "deno-unlimited-bitly",
+  "entry": "./mod.ts",
+  "description": "🦕 deno-unlimited-bitly is a module which can combine many Bitly accounts together to be an extensible quota usage. This module has to run in a Deno compatible environment.",
+  "homepage": "https://github.com/WayneChang65/deno-unlimited-bitly",
+  "version": "v1.0.2.1",
+  "releaseType": null,
+  "unstable": false,
+  "unlisted": false,
+  "files": [
+    "./img/*",
+    "LICENSE",
+    "README.md",
+    "demo.js",
+    "unlimited-bitly.js"
+  ],
+  "ignore": [
+    "./.git*"
+  ],
+  "checkFormat": false,
+  "checkTests": false,
+  "checkInstallation": false,
+  "check": true
+}
